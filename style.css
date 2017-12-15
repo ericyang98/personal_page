@@ -1,0 +1,198 @@
+body {
+  margin: 0;
+}
+/* Style the top navigation bar */
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    width: 1300px;
+    height: auto;
+}
+
+/* Style the topnav links */
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.intro {
+  overflow: hidden;
+  background-color: darkgrey;
+  padding: 5px;
+  height: 693px;
+}
+
+.intro_left {
+  margin:0;
+  /*padding:1em;*/
+}
+
+.intro img {
+  width: 33%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  /*margin-top: 80px;*/
+}
+
+.intro_right {
+  text-align: center;
+  margin-top: 50px;
+  padding:1em;
+  color: #ffffff;
+}
+
+.about {
+  overflow: hidden;
+  background-color: lightgrey;
+  padding: 5px;
+  height: 690px;
+}
+
+.about_heading {
+  text-align: center;
+  position: relative;
+  margin-top: 50px;
+}
+
+.about_text {
+  text-align: center;
+  padding-top: 200px;
+  width: 200px;
+}
+
+.gallery {
+    margin-right: 100px;
+    float: right;
+    width: 300px;
+    position: relative;
+    top: -300px;
+}
+
+/*.gallery {
+  width: 300px;
+  position: relative;
+  top: -300px;
+  float: right;
+}*/
+
+.projects {
+  overflow: hidden;
+  background-color: #e6e6e6;
+  padding: 5px;
+  height: 690px;
+}
+
+.projects_heading {
+  text-align: center;
+  position: relative;
+  margin-top: 50px;
+}
+
+.projects table img {
+  width: 400px;
+  height: auto;
+}
+
+.img_wrap {
+  height: auto;
+  position: relative;
+  width: 420px;
+}
+
+.img_admin {
+  height: auto;
+  position: relative;
+  width: 120px;
+}
+
+.img_picbot {
+  height: auto;
+  position: relative;
+  width: 120px;
+}
+
+.img_blackjack {
+  height: auto;
+  position: relative;
+  width: 520px;
+}
+
+.img_desc {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 20px;
+  background: rgba(29, 106, 154, 0.72);
+  color: #fff;
+  visibility: hidden;
+  opacity: 0;
+
+  /* transition effect. not necessary */
+  transition: opacity .2s, visibility .2s;
+}
+
+.img_wrap:hover .img_desc {
+  visibility: visible;
+  opacity: 1;
+}
+
+.contact {
+  overflow: hidden;
+  background-color: #f2f2f2;
+  padding: 5px;
+  height: 690px;
+}
+
+.contact_heading {
+  text-align: center;
+  position: relative;
+  margin-top: 250px;
+}
+
+.contact_table {
+  text-align: center;
+  position: relative;
+  margin-left: 320px;
+}
+
+.contact_table td {
+  text-align: center;
+  width: 300px;
+}
+
+.contact_img1 {
+  position: relative;
+  height: auto;
+  width: 11%;
+}
+
+.contact_img2 {
+  position: relative;
+  height: auto;
+  width: 13%;
+}
+
+.contact_img3 {
+  position: relative;
+  height: auto;
+  width: 10%;
+}
+
+.contact_img4 {
+  position: relative;
+  height: auto;
+  width: 13%;
+}
