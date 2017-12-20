@@ -66,18 +66,16 @@ body {
   margin-top: 50px;
 }
 
-.about_text {
-  text-align: center;
-  padding-top: 200px;
-  width: 200px;
+.img_ucsd {
+  height: auto;
+  position: relative;
+  width: 300px;
 }
 
-.gallery {
-    margin-right: 100px;
-    float: right;
-    width: 300px;
-    position: relative;
-    top: -300px;
+.img_warriors {
+  height: auto;
+  position: relative;
+  width: 250px;
 }
 
 /*.gallery {
@@ -188,7 +186,7 @@ body {
 .contact_img3 {
   position: relative;
   height: auto;
-  width: 10%;
+  width: 13%;
 }
 
 .contact_img4 {
