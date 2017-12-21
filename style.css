@@ -50,7 +50,7 @@ body {
   text-align: center;
   margin-top: 50px;
   padding:1em;
-  color: #ffffff;
+  /* color: #ffffff; */
 }
 
 .about {
@@ -68,22 +68,17 @@ body {
 
 .img_ucsd {
   height: auto;
-  position: relative;
   width: 300px;
 }
 
-.img_warriors {
+/* .img_warriors {
   height: auto;
-  position: relative;
   width: 250px;
-}
+} */
 
-/*.gallery {
-  width: 300px;
-  position: relative;
-  top: -300px;
-  float: right;
-}*/
+/* .gallery table {
+  left: 200px;
+} */
 
 .projects {
   overflow: hidden;
@@ -98,11 +93,6 @@ body {
   margin-top: 50px;
 }
 
-.projects table img {
-  width: 400px;
-  height: auto;
-}
-
 .img_wrap {
   height: auto;
   position: relative;
@@ -110,27 +100,34 @@ body {
 }
 
 .img_admin {
-  height: auto;
-  position: relative;
-  width: 120px;
+  height: 250px;
+  width: 400px;
 }
 
 .img_picbot {
-  height: auto;
-  position: relative;
-  width: 120px;
+  height: 250px;
+  width: 400px;
 }
 
 .img_blackjack {
-  height: auto;
-  position: relative;
-  width: 520px;
+  height: 250px;
+  width: 400px;
+}
+
+.img_login {
+  height: 250px;
+  width: 400px;
+}
+
+.img_travel {
+  height: 250px;
+  width: 400px;
 }
 
 .img_desc {
   position: absolute;
-  top: 0;
-  bottom: 0;
+  top: -16px;
+  bottom: -18px;
   left: 0;
   right: 20px;
   background: rgba(29, 106, 154, 0.72);
